@@ -116,7 +116,7 @@ body:has(dialog[open]) { overflow: hidden; }
   .brand img { width: 34px; height: 34px; }
   .brand span { font-size: 1.05rem; }
   .primary { gap: clamp(7px, 2.6vw, 18px); }
-  .primary a { font-size: .73rem; }
+  .primary a { display: inline-flex; align-items: center; min-height: 40px; white-space: nowrap; font-size: .73rem; }
   .primary .nav-visit { padding: 6px 9px; }
   .nav-visit span { display: none; }
   .hero { display: flex; flex-direction: column; align-items: stretch; gap: 29px; padding-block: 36px 35px; }
